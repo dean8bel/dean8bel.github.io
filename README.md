@@ -9,23 +9,23 @@ BA, Computer Sciences (Graduating Dec 2025)
 * Structure & Interpertation of Computer Programs (Python, Scheme, SQL)
 * Data Structures (Java, Git)
  
----## Udemy
----* Complete Python Bootcamp
----* Python for Machine Learning & Data Science Bootcamp
----* The Complete Web Development Bootcamp w/ Dr. Angela Yu
+<! --- ## Udemy
+* Complete Python Bootcamp
+* Python for Machine Learning & Data Science Bootcamp
+* The Complete Web Development Bootcamp w/ Dr. Angela Yu
 
----# 💼 Projects 
----"Tarkeez" Web App
----* Retrieves the 5 Muslim Prayer Times for any city in the world using the Al-Adhan API
----* (HTML, CSS, Bootstrap | Node.JS, Express.JS, EJS)
----* Source Code: https://github.com/yahya-s9/Tarkeez
----* Live Version: https://obscure-stream-89952.herokuapp.com
+# 💼 Projects 
+"Tarkeez" Web App
+* Retrieves the 5 Muslim Prayer Times for any city in the world using the Al-Adhan API
+* (HTML, CSS, Bootstrap | Node.JS, Express.JS, EJS)
+* Source Code: https://github.com/yahya-s9/Tarkeez
+* Live Version: https://obscure-stream-89952.herokuapp.com
 
----MNIST Handwritten Digit Recognizer
----* Designed an Artificial Neural Network using to recognize what number a handwritten digit represents
----* (Python: Matplotlib, Pandas, NumPy, Scikit-Learn)
----* Report: https://github.com/yahya-s9/MNISTDigitRecognizer
-
+MNIST Handwritten Digit Recognizer
+* Designed an Artificial Neural Network using to recognize what number a handwritten digit represents
+* (Python: Matplotlib, Pandas, NumPy, Scikit-Learn)
+* Report: https://github.com/yahya-s9/MNISTDigitRecognizer
+-->
 
 ## Languages and Tools
 
