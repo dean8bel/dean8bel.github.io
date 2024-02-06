@@ -3,11 +3,13 @@
 # 🎓 Education 
 
 ## University of California, Berkeley
-BA, Computer Sciences (Graduating Dec 2025)
+BA, Computer Science (Graduating May 2026)
 
 ### Coursework
-* Structure & Interpertation of Computer Programs (Python, Scheme, SQL)
+* Machine Structures (C, RISC-V)
 * Data Structures (Java, Git)
+* Structure & Interpertation of Computer Programs (Python, Scheme, SQL)
+* Discrete Math and Probability
 
 ## Languages and Tools
 
