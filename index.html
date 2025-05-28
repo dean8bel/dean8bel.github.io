@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Programmer</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Fira Code', monospace;
+      background-color: #0a0a0a;
+      color: #e0e0e0;
+    }
+
+    .section-title {
+      @apply text-2xl font-bold text-green-400 mb-4;
+    }
+
+    .divider {
+      @apply border-t border-gray-700 my-10;
+    }
+  </style>
+</head>
+<body class="p-6 max-w-3xl mx-auto">
+  <header class="mb-12">
+    <h1 class="text-4xl font-bold text-white">Your Name</h1>
+    <p class="text-gray-400 mt-2">Programmer • Student • Builder</p>
+  </header>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p class="text-gray-300 leading-relaxed">
+      I'm a student programmer passionate about building tools that solve real problems. I enjoy working with JavaScript, Python, and Java, and I’m currently learning more about backend development and system design.
+    </p>
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="experience">
+    <h2 class="section-title">Experience</h2>
+    <ul class="space-y-4">
+      <li>
+        <p class="text-lg text-white font-semibold">Software Engineering Intern — Tech Company</p>
+        <p class="text-sm text-gray-400">June 2024 – August 2024</p>
+        <p class="text-gray-300 mt-1">
+          Built a dashboard in React to display seller analytics, developed REST APIs in Spring Boot, and used PostgreSQL for data storage.
+        </p>
+      </li>
+      <li>
+        <p class="text-lg text-white font-semibold">Open Source Contributor — GitHub</p>
+        <p class="text-sm text-gray-400">Ongoing</p>
+        <p class="text-gray-300 mt-1">
+          Contributed bug fixes and new features to open-source JavaScript libraries. Participated in code reviews and pull requests.
+        </p>
+      </li>
+    </ul>
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <p class="text-lg text-white font-semibold">Your University</p>
+    <p class="text-sm text-gray-400">B.S. in Computer Science, Expected 2026</p>
+    <p class="text-gray-300 mt-1">
+      Relevant Courses: Data Structures, Algorithms, Web Development, Databases
+    </p>
+  </section>
+
+  <div class="divider"></div>
+
+  <footer class="text-center text-sm text-gray-600 mt-10">
+    © 2025 Your Name. Built with 🖤 and Tailwind CSS.
+  </footer>
+</body>
+</html>
