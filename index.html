@@ -15,7 +15,14 @@
       }
     </style>
   </head>
-  <body class="bg-gray-900 text-gray-100 min-h-screen p-6">
+  <body class="bg-gray-900 text-gray-100 min-h-screen p-6 relative">
+    <!-- Large Profile Image on the Right -->
+    <img
+      src="images/profile.jpg"
+      alt="Profile photo"
+      class="hidden lg:block lg:absolute lg:right-10 lg:top-24 w-64 h-64 rounded-full border-4 border-green-400 object-cover shadow-lg"
+    />
+
     <div class="max-w-4xl mx-auto">
       <!-- Header -->
       <header class="mb-10 text-center">
@@ -24,12 +31,7 @@
       </header>
 
       <!-- About Me -->
-      <section class="text-center px-4 mb-12">
-      <img
-        src="images/profile.jpg"
-        alt="Profile photo"
-        class="w-32 h-32 rounded-full mx-auto mb-4 border-2 border-green-400"
-      />
+      <section class="text-center px-4 mb-12 lg:text-left">
         <h2 class="text-2xl font-semibold mb-4 border-b border-gray-700 pb-1">
           About Me
         </h2>
@@ -58,7 +60,6 @@
               Leveraging various bioinformatics tools to construct an efficient pipeline for high throughput assembly of bacterial genomes. Downstream analysis consists of antimicrobial mediated resistance and phylogenetic relationships. 
             </p>
           </div>
-          <!-- Add more experience blocks as needed -->
         </div>
       </section>
 
@@ -73,24 +74,20 @@
           <p class="text-gray-300">Expected Graduation: 2026</p>
           <ul class="list-disc list-inside mt-2 space-y-1 text-sm text-gray-300">
             <li>Internet Protocols</li>
-             <li>Algorithms in Computational Biology</li>
-             <li>Algorithms and Intractable Problems</li>
+            <li>Algorithms in Computational Biology</li>
+            <li>Algorithms and Intractable Problems</li>
             <li>Data Structures</li>
             <li>Machine Architecture and Assembly</li>
-             <li>Fundamentals of Programming</li>
+            <li>Fundamentals of Programming</li>
             <li>Discrete Math</li>
             <li>Linear Algebra</li>
           </ul>
         </div>
-        <div>
-          
-        </div>
-       
       </section>
 
       <!-- Footer -->
       <footer class="mt-16 text-center text-gray-600 text-sm">
-       
+        © 2025 Dean Belhoucine
       </footer>
     </div>
   </body>
