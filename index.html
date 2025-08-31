@@ -9,11 +9,41 @@
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
     />
-    <style>
-      body {
-        font-family: 'Oxygen Mono', monospace;
+    <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dean Belhoucine – Portfolio</title>
+  <!-- Tailwind CSS via CDN -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    rel="stylesheet"
+  />
+  <style>
+    body {
+      font-family: 'Oxygen Mono', monospace;
+      background-color: #111827; /* Tailwind bg-gray-900 */
+      color: #f3f4f6; /* Tailwind text-gray-100 */
+
+      /* Graph paper effect */
+      background-image: 
+        repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px, transparent 1px, transparent 40px),
+        repeating-linear-gradient(90deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px, transparent 1px, transparent 40px);
+
+      background-size: 40px 40px; /* size of each square */
+      animation: moveGrid 8s linear infinite;
+    }
+
+    @keyframes moveGrid {
+      from {
+        background-position: 0 0, 0 0;
       }
-    </style>
+      to {
+        background-position: 40px 0, 40px 0; /* moves horizontally */
+      }
+    }
+  </style>
+</head>
+
   </head>
   
   <body class="bg-gray-900 text-gray-100 min-h-screen p-6 relative">
@@ -106,3 +136,4 @@
     </div>
   </body>
 </html>
+
