@@ -26,11 +26,11 @@
 
     /* Graph paper effect */
     background-image: 
-      repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px, transparent 1px, transparent 40px),
-      repeating-linear-gradient(90deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px, transparent 1px, transparent 40px);
+      repeating-linear-gradient(0deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px, transparent 1px, transparent 20px),
+      repeating-linear-gradient(90deg, rgba(255,255,255,0.05) 0px, rgba(255,255,255,0.05) 1px, transparent 1px, transparent 20px);
 
-    background-size: 40px 40px; /* size of each square */
-    animation: moveGrid 8s linear infinite;
+    background-size: 20px 20px; /* smaller squares */
+    animation: moveGrid 4s linear infinite; /* faster loop */
 
     /* Hide scrollbar in Firefox/IE */
     -ms-overflow-style: none;
@@ -47,7 +47,7 @@
       background-position: 0 0, 0 0;
     }
     to {
-      background-position: 40px 0, 40px 0; /* moves horizontally */
+      background-position: 20px 0, 20px 0; /* match new square size */
     }
   }
 </style>
@@ -146,5 +146,6 @@
     </div>
   </body>
 </html>
+
 
 
